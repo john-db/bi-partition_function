@@ -23,7 +23,7 @@ Required arguments:
 
 Optional arguments:
 
--s : Seed used for random number generation
+-s : Seed used for random number generation (defaults to 0 if not given)
 
 Example: From the partition_function directory execute:
 
