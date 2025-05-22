@@ -1,4 +1,4 @@
-Python implementation of the partition function. To run the partition function, run the file main.py using python:
+Python implementation of the bi-partition function. To run the bi-partition function, run the file main.py using python:
 
 python main.py -h
 
@@ -20,7 +20,7 @@ Optional arguments:
 
 -s : Seed used for random number generation
 
-Example: From the partition_function directory execute:
+Example: From the bi-partition_function directory execute:
 
 python main.py -i example/data.tsv -c cell0,cell5,cell6,cell7,cell8,cell9,cell10,cell17 -m mut0 -n 100 -fp 0.01 -fn 0.1
 
