@@ -1,4 +1,4 @@
-# Partition function estimation 
+# Bi-partition function estimation 
 This README contains details about estimating the partition function values. 
 
 For independent tree sampling estimation proposed in this work, navigate to the partition_function directory and run the following command:
