@@ -32,27 +32,17 @@ python main.py -i example/data.tsv -c cell0,cell5,cell6,cell7,cell8,cell9,cell10
 The corresponding output is:
 
 -----
-elapsed time: 0:00:08.502752
-
+elapsed time: 0:00:08.587280
 Input: example/data.tsv
-
 False-positive rate: 0.01
-
 False-negative rate: 0.1
-
 Clade: cell0,cell10,cell17,cell5,cell6,cell7,cell8,cell9
-
 Mutation: mut0
-
 Number of samples: 100
-
 RNG seed: 0
-
 numerator_est: 1.163944112761281013476341751E-41
-
 denominator_est: 1.886298807317646730407156648E-39
-
-Partition function estimate: 0.006170518203404009
+bi-partition function estimate: 0.006170518203404009
 
 -----
 Indicating that mut0 has been estimated to have 0.6% probability of seeding the clade of cell0,cell5,cell6,cell7,cell8,cell9,cell10,cell17 by the partition function (with the small sample of 100 trees). In practice, we recommend sampling at least 1,000 trees.
